@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="9.000004%p" android:keyHeight="@dimen/key_height" android:horizontalGap="@dimen/m_horizantal1" android:verticalGap="@dimen/m_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="25163" android:popupCharacters="1" android:keyEdgeFlags="left" android:keyLabel="手" />
+        <Key android:codes="30000" android:popupCharacters="2" android:keyLabel="田" />
+        <Key android:codes="27700" android:popupCharacters="3" android:keyLabel="水" />
+        <Key android:codes="21475" android:popupCharacters="4" android:keyLabel="口" />
+        <Key android:codes="24319" android:popupCharacters="5" android:keyLabel="廿" />
+        <Key android:codes="21340" android:popupCharacters="6" android:keyLabel="卜" />
+        <Key android:codes="23665" android:popupCharacters="7" android:keyLabel="山" />
+        <Key android:codes="25096" android:popupCharacters="8" android:keyLabel="戈" />
+        <Key android:codes="20154" android:popupCharacters="9" android:keyLabel="人" />
+        <Key android:codes="24515" android:popupCharacters="0" android:keyEdgeFlags="right" android:keyLabel="心" />
+    </Row>
+    <Row>
+        <Key android:horizontalGap="5.9999943%p" android:codes="26085" android:popupCharacters="\@" android:keyEdgeFlags="left" android:keyLabel="日" />
+        <Key android:codes="23608" android:popupCharacters="\#" android:keyLabel="尸" />
+        <Key android:codes="26408" android:popupCharacters="$" android:keyLabel="木" />
+        <Key android:codes="28779" android:popupCharacters="&amp;" android:keyLabel="火" />
+        <Key android:codes="22303" android:popupCharacters="*" android:keyLabel="土" />
+        <Key android:codes="31481" android:popupCharacters="-" android:keyLabel="竹" />
+        <Key android:codes="21313" android:popupCharacters="+" android:keyLabel="十" />
+        <Key android:codes="22823" android:popupCharacters="(" android:keyLabel="大" />
+        <Key android:codes="20013" android:popupCharacters=")" android:keyEdgeFlags="right" android:keyLabel="中" />
+    </Row>
+    <Row android:keyWidth="9.200001%p">
+        <Key android:keyWidth="13.999998%p" android:codes="-978903" android:keyEdgeFlags="left" android:isSticky="true" android:keyIcon="@drawable/btn_shift_off" />
+        <Key android:codes="37325" android:popupCharacters="!" android:keyLabel="重" />
+        <Key android:codes="38627" android:popupCharacters="&quot;" android:keyLabel="難" />
+        <Key android:codes="37329" android:popupCharacters="'" android:keyLabel="金" />
+        <Key android:codes="22899" android:popupCharacters=":" android:keyLabel="女" />
+        <Key android:codes="26376" android:popupCharacters=";" android:keyLabel="月" />
+        <Key android:codes="24339" android:popupCharacters="/" android:keyLabel="弓" />
+        <Key android:codes="19968" android:popupCharacters="\?" android:keyLabel="一" />
+        <Key android:keyWidth="13.999998%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/btn_back" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="13.999998%p" android:codes="-6003" android:keyEdgeFlags="left" android:keyLabel="\?123" />
+        <Key android:keyWidth="9.000004%p" android:codes="44" android:keyLabel="," />
+        <Key android:keyWidth="49.300003%p" android:codes="32" android:isRepeatable="true" android:keyIcon="@drawable/btn_space" />
+        <Key android:keyWidth="9.000004%p" android:codes="46" android:keyLabel="." />
+        <Key android:keyWidth="13.999998%p" android:codes="-4" android:keyEdgeFlags="right" android:keyIcon="@drawable/btn_enter" />
+    </Row>
+</Keyboard>

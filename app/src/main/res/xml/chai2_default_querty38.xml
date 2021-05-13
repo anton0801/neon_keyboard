@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="8.200002%p" android:keyHeight="@dimen/thai_key_height" android:horizontalGap="@dimen/m_horizantal1" android:verticalGap="@dimen/m_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="12549" android:keyEdgeFlags="left" android:keyLabel="ㄅ" />
+        <Key android:codes="12553" android:keyLabel="ㄉ" />
+        <Key android:codes="711" android:keyLabel="ˇ" />
+        <Key android:codes="715" android:keyLabel="ˋ" />
+        <Key android:codes="12563" android:keyLabel="ㄓ" />
+        <Key android:codes="714" android:keyLabel="ˊ" />
+        <Key android:codes="729" android:keyLabel="˙" />
+        <Key android:codes="12570" android:keyLabel="ㄚ" />
+        <Key android:codes="12574" android:keyLabel="ㄞ" />
+        <Key android:codes="12578" android:keyLabel="ㄢ" />
+        <Key android:codes="12550" android:keyEdgeFlags="right" android:keyLabel="ㄆ" />
+    </Row>
+    <Row>
+        <Key android:codes="12554" android:keyEdgeFlags="left" android:keyLabel="ㄊ" />
+        <Key android:codes="12557" android:keyLabel="ㄍ" />
+        <Key android:codes="12560" android:keyLabel="ㄐ" />
+        <Key android:codes="12564" android:keyLabel="ㄔ" />
+        <Key android:codes="12567" android:keyLabel="ㄗ" />
+        <Key android:codes="12583" android:keyLabel="ㄧ" />
+        <Key android:codes="12571" android:keyLabel="ㄛ" />
+        <Key android:codes="12575" android:keyLabel="ㄟ" />
+        <Key android:codes="12579" android:keyLabel="ㄣ" />
+        <Key android:codes="12551" android:keyLabel="ㄇ" />
+        <Key android:codes="12555" android:keyEdgeFlags="right" android:keyLabel="ㄋ" />
+    </Row>
+    <Row>
+        <Key android:codes="12558" android:keyEdgeFlags="left" android:keyLabel="ㄎ" />
+        <Key android:codes="12561" android:keyLabel="ㄑ" />
+        <Key android:codes="12565" android:keyLabel="ㄕ" />
+        <Key android:codes="12568" android:keyLabel="ㄘ" />
+        <Key android:codes="12584" android:keyLabel="ㄨ" />
+        <Key android:codes="12572" android:keyLabel="ㄜ" />
+        <Key android:codes="12576" android:keyLabel="ㄠ" />
+        <Key android:codes="12580" android:keyLabel="ㄤ" />
+        <Key android:codes="12552" android:keyLabel="ㄈ" />
+        <Key android:codes="12556" android:keyLabel="ㄌ" />
+        <Key android:codes="12559" android:keyEdgeFlags="right" android:keyLabel="ㄏ" />
+    </Row>
+    <Row android:keyWidth="7.8999996%p">
+        <Key android:keyWidth="13.999998%p" android:codes="-1" android:keyEdgeFlags="left" android:isSticky="true" android:keyIcon="@drawable/btn_shift_off" />
+        <Key android:codes="12562" android:keyLabel="ㄒ" />
+        <Key android:codes="12566" android:keyLabel="ㄖ" />
+        <Key android:codes="12569" android:keyLabel="ㄙ" />
+        <Key android:codes="12585" android:keyLabel="ㄩ" />
+        <Key android:codes="12573" android:keyLabel="ㄝ" />
+        <Key android:codes="12577" android:keyLabel="ㄡ" />
+        <Key android:codes="12581" android:keyLabel="ㄥ" />
+        <Key android:codes="12582" android:keyLabel="ㄦ" />
+        <Key android:keyWidth="13.999998%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/btn_back" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="13.999998%p" android:codes="-6003" android:keyEdgeFlags="left" android:keyLabel="\?123" />
+        <Key android:keyWidth="9.000004%p" android:codes="12290" android:keyLabel="。" />
+        <Key android:keyWidth="49.300003%p" android:codes="32" android:isRepeatable="true" android:keyIcon="@drawable/btn_space" />
+        <Key android:keyWidth="9.000004%p" android:codes="65292" android:keyLabel="，" />
+        <Key android:keyWidth="13.999998%p" android:codes="-4" android:keyEdgeFlags="right" android:keyIcon="@drawable/btn_enter" />
+    </Row>
+</Keyboard>

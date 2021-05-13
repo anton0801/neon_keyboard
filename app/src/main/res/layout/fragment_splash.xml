@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.splash.SplashFragment"
+    android:background="@drawable/ic_splash_bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_152sdp"
+        android:fontFamily="@font/neon_font"
+        android:gravity="center"
+        android:letterSpacing="0.03"
+        android:shadowColor="@color/color_primary"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="20"
+        android:text="Your Neon Keyboard"
+        android:textAllCaps="true"
+        android:textColor="@color/color_primary"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/_265sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:fontFamily="@font/rocket_clouds"
+        android:gravity="center"
+        android:letterSpacing="0.025"
+        android:text="Change the way you type your text  messages!"
+        android:textColor="@color/secondary_color"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:letterSpacing="0.06"
+            android:text="@string/loading_label"
+            android:textColor="@color/color_primary_secondary"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/loading_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:letterSpacing="0.06"
+            android:text="@string/loading_label"
+            android:textColor="#F88806"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/loading_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:letterSpacing="0.06"
+            android:text="@string/loading_label"
+            android:textColor="#E7058D"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

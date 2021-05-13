@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="7.2999954%p" android:keyHeight="@dimen/thai_key_height" android:horizontalGap="@dimen/m_horizantal1" android:verticalGap="@dimen/m_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="12429" android:keyEdgeFlags="left" android:keyLabel="ろ" />
+        <Key android:codes="12396" android:keyLabel="ぬ" />
+        <Key android:codes="12405" android:keyLabel="ふ" />
+        <Key android:codes="12354" android:keyLabel="あ" />
+        <Key android:codes="12358" android:keyLabel="う" />
+        <Key android:codes="12360" android:keyLabel="え" />
+        <Key android:codes="12362" android:keyLabel="お" />
+        <Key android:codes="12420" android:keyLabel="や" />
+        <Key android:codes="12422" android:keyLabel="ゆ" />
+        <Key android:codes="12424" android:keyLabel="よ" />
+        <Key android:codes="12431" android:keyLabel="わ" />
+        <Key android:codes="12411" android:keyEdgeFlags="right" android:keyLabel="ほ" />
+    </Row>
+    <Row>
+        <Key android:codes="12383" android:keyEdgeFlags="left" android:keyLabel="た" />
+        <Key android:codes="12390" android:keyLabel="て" />
+        <Key android:codes="12356" android:keyLabel="い" />
+        <Key android:codes="12377" android:keyLabel="す" />
+        <Key android:codes="12363" android:keyLabel="か" />
+        <Key android:codes="12435" android:keyLabel="ん" />
+        <Key android:codes="12394" android:keyLabel="な" />
+        <Key android:codes="12395" android:keyLabel="に" />
+        <Key android:codes="12425" android:keyLabel="ら" />
+        <Key android:codes="12379" android:keyLabel="せ" />
+        <Key android:codes="12416" android:keyLabel="む" />
+        <Key android:codes="12408" android:keyEdgeFlags="right" android:keyLabel="へ" />
+    </Row>
+    <Row>
+        <Key android:codes="12385" android:keyEdgeFlags="left" android:keyLabel="ち" />
+        <Key android:codes="12392" android:keyLabel="と" />
+        <Key android:codes="12375" android:keyLabel="し" />
+        <Key android:codes="12399" android:keyLabel="は" />
+        <Key android:codes="12365" android:keyLabel="き" />
+        <Key android:codes="12367" android:keyLabel="く" />
+        <Key android:codes="12414" android:keyLabel="ま" />
+        <Key android:codes="12398" android:keyLabel="の" />
+        <Key android:codes="12426" android:keyLabel="り" />
+        <Key android:codes="12428" android:keyLabel="れ" />
+        <Key android:codes="12369" android:keyLabel="け" />
+        <Key android:codes="12417" android:keyEdgeFlags="right" android:keyLabel="め" />
+    </Row>
+    <Row android:keyWidth="7.0000052%p">
+        <Key android:keyWidth="9.000004%p" android:codes="-1" android:keyEdgeFlags="left" android:isSticky="true" android:keyIcon="@drawable/btn_shift_off" />
+        <Key android:codes="12416" android:keyLabel="む" />
+        <Key android:codes="12388" android:keyLabel="つ" />
+        <Key android:codes="12373" android:keyLabel="さ" />
+        <Key android:codes="12381" android:keyLabel="そ" />
+        <Key android:codes="12402" android:keyLabel="ひ" />
+        <Key android:codes="12371" android:keyLabel="こ" />
+        <Key android:codes="12415" android:keyLabel="み" />
+        <Key android:codes="12418" android:keyLabel="も" />
+        <Key android:codes="12397" android:keyLabel="ね" />
+        <Key android:codes="12427" android:keyLabel="る" />
+        <Key android:keyWidth="10.000002%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/btn_back" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="13.999998%p" android:codes="-6003" android:keyEdgeFlags="left" android:keyLabel="\?123" />
+        <Key android:keyWidth="9.000004%p" android:codes="12443" android:keyLabel="゛" />
+        <Key android:keyWidth="49.300003%p" android:codes="32" android:isRepeatable="true" android:keyIcon="@drawable/btn_space" />
+        <Key android:keyWidth="9.000004%p" android:codes="12444" android:keyLabel="゜" />
+        <Key android:keyWidth="13.999998%p" android:codes="-4" android:keyEdgeFlags="right" android:keyIcon="@drawable/btn_enter" />
+    </Row>
+</Keyboard>

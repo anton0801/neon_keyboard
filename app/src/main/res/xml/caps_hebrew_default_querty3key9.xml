@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="22.500002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="@dimen/m_horizantal" android:verticalGap="@dimen/m_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:keyWidth="13.999998%p" android:codes="45" android:keyEdgeFlags="left" android:keyLabel="-" />
+        <Key android:codes="44" android:keyLabel="," />
+        <Key android:codes="1491,1495,1493" android:keyLabel="דחו" />
+        <Key android:codes="1488,1489,1490" android:keyLabel="אבג" />
+        <Key android:keyWidth="13.999998%p" android:codes="63" android:keyEdgeFlags="right" android:keyLabel="\?" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="13.999998%p" android:codes="34" android:keyEdgeFlags="left" android:keyLabel="&quot;" />
+        <Key android:codes="1502,1504" android:keyLabel="מנ" />
+        <Key android:codes="1497,1499,1500" android:keyLabel="יכל" />
+        <Key android:codes="1494,1495,1496" android:keyLabel="זחט" />
+        <Key android:keyWidth="13.999998%p" android:codes="39" android:keyEdgeFlags="right" android:keyLabel="'" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="13.999998%p" android:codes="-978903" android:keyEdgeFlags="left" android:isSticky="true" android:keyIcon="@drawable/btn_shift_off" />
+        <Key android:codes="1512,1513,1514" android:keyLabel="רשת" />
+        <Key android:codes="1510,1511" android:keyLabel="צק" />
+        <Key android:codes="1505,1506,1508" android:keyLabel="סעפ" />
+        <Key android:keyWidth="13.999998%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/btn_back" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="13.999998%p" android:codes="-6002" android:keyEdgeFlags="left" android:keyLabel="123" />
+        <Key android:keyWidth="9.000004%p" android:codes="-1762" android:keyLabel="sym" />
+        <Key android:keyWidth="49.300003%p" android:codes="32" android:isRepeatable="true" android:keyIcon="@drawable/btn_space" />
+        <Key android:keyWidth="9.000004%p" android:codes="46" android:keyLabel="." />
+        <Key android:keyWidth="13.999998%p" android:codes="-4" android:keyEdgeFlags="right" android:keyIcon="@drawable/btn_enter" />
+    </Row>
+</Keyboard>

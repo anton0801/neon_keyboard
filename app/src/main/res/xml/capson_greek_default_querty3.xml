@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="9.000004%p" android:keyHeight="@dimen/key_height" android:horizontalGap="@dimen/m_horizantal1" android:verticalGap="@dimen/m_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="58" android:popupCharacters="1" android:keyEdgeFlags="left" android:keyLabel=":" />
+        <Key android:codes="962" android:popupCharacters="2" android:keyLabel="Σ" />
+        <Key android:codes="949" android:popupCharacters="3" android:keyLabel="Ε" />
+        <Key android:codes="961" android:popupCharacters="4" android:keyLabel="Ρ" />
+        <Key android:codes="964" android:popupCharacters="5" android:keyLabel="Τ" />
+        <Key android:codes="965" android:popupCharacters="6" android:keyLabel="Υ" />
+        <Key android:codes="952" android:popupCharacters="7" android:keyLabel="Θ" />
+        <Key android:codes="953" android:popupCharacters="8" android:keyLabel="Ι" />
+        <Key android:codes="959" android:popupCharacters="9" android:keyLabel="Ο" />
+        <Key android:codes="960" android:popupCharacters="0" android:keyEdgeFlags="right" android:keyLabel="Π" />
+    </Row>
+    <Row>
+        <Key android:horizontalGap="5.9999943%p" android:codes="945" android:popupCharacters="\@" android:keyEdgeFlags="left" android:keyLabel="Α" />
+        <Key android:codes="963" android:popupCharacters="\#" android:keyLabel="Σ" />
+        <Key android:codes="948" android:popupCharacters="$" android:keyLabel="Δ" />
+        <Key android:codes="966" android:popupCharacters="&amp;" android:keyLabel="Φ" />
+        <Key android:codes="947" android:popupCharacters="*" android:keyLabel="Γ" />
+        <Key android:codes="951" android:popupCharacters="-" android:keyLabel="Η" />
+        <Key android:codes="958" android:popupCharacters="+" android:keyLabel="Ξ" />
+        <Key android:codes="954" android:popupCharacters="(" android:keyLabel="Κ" />
+        <Key android:codes="955" android:popupCharacters=")" android:keyEdgeFlags="right" android:keyLabel="Λ" />
+    </Row>
+    <Row android:keyWidth="9.200001%p">
+        <Key android:keyWidth="13.999998%p" android:codes="-1" android:keyEdgeFlags="left" android:isSticky="true" android:keyIcon="@drawable/btn_shift_off" />
+        <Key android:codes="950" android:popupCharacters="!" android:keyLabel="Ζ" />
+        <Key android:codes="967" android:popupCharacters="&quot;" android:keyLabel="Χ" />
+        <Key android:codes="968" android:popupCharacters="'" android:keyLabel="Ψ" />
+        <Key android:codes="969" android:popupCharacters=":" android:keyLabel="Ω" />
+        <Key android:codes="946" android:popupCharacters=";" android:keyLabel="Β" />
+        <Key android:codes="957" android:popupCharacters="/" android:keyLabel="Ν" />
+        <Key android:codes="956" android:popupCharacters="\?" android:keyLabel="Μ" />
+        <Key android:keyWidth="13.999998%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/btn_back" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="13.999998%p" android:codes="-6003" android:keyEdgeFlags="left" android:keyLabel="\?123" />
+        <Key android:keyWidth="9.000004%p" android:codes="44" android:keyLabel="," />
+        <Key android:keyWidth="49.300003%p" android:codes="32" android:isRepeatable="true" android:keyIcon="@drawable/btn_space" />
+        <Key android:keyWidth="9.000004%p" android:codes="46" android:keyLabel="." />
+        <Key android:keyWidth="13.999998%p" android:codes="-4" android:keyEdgeFlags="right" android:keyIcon="@drawable/btn_enter" />
+    </Row>
+</Keyboard>

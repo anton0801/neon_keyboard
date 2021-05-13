@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="24.0%p" android:keyHeight="@dimen/key_height" android:horizontalGap="@dimen/m_horizantal1" android:verticalGap="@dimen/m_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="-2250" android:keyEdgeFlags="left" android:keyLabel="All" />
+        <Key android:codes="-2251" android:isRepeatable="true" android:keyLabel="^" />
+        <Key android:codes="-2252" android:keyLabel="Clear" />
+        <Key android:codes="-2264" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/btn_back" />
+    </Row>
+    <Row>
+        <Key android:codes="-2253" android:keyEdgeFlags="left" android:isRepeatable="true" android:keyLabel="&lt;" />
+        <Key android:codes="-2254" android:isSticky="true" android:keyLabel="Select" />
+        <Key android:codes="-2255" android:isRepeatable="true" android:keyLabel=">" />
+        <Key android:codes="-2256" android:keyLabel="Back" />
+    </Row>
+    <Row>
+        <Key android:codes="-2257" android:keyEdgeFlags="left" android:keyLabel="Home" />
+        <Key android:codes="-2258" android:isRepeatable="true" android:keyLabel="v" />
+        <Key android:codes="-2259" android:keyLabel="End" />
+        <Key android:codes="32" android:isRepeatable="true" android:keyIcon="@drawable/btn_space" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-2260" android:keyEdgeFlags="left" android:keyLabel="Copy" />
+        <Key android:codes="-2261" android:keyLabel="Cut" />
+        <Key android:codes="-2262" android:keyLabel="Paste" />
+        <Key android:codes="-2263" android:keyLabel="Tab" />
+    </Row>
+</Keyboard>
